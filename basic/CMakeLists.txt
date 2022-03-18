@@ -10,3 +10,5 @@ add_executable(TwoPointer ${CMAKE_CURRENT_SOURCE_DIR}/two_pointer.cpp)
 add_executable(MergeIntervals ${CMAKE_CURRENT_SOURCE_DIR}/merge_intervals.cpp)
 add_executable(StaticStackArray ${CMAKE_CURRENT_SOURCE_DIR}/static_stack_array.cpp)
 add_executable(StaticQueueArray ${CMAKE_CURRENT_SOURCE_DIR}/static_queue_array.cpp)
+add_executable(StaticListArray ${CMAKE_CURRENT_SOURCE_DIR}/static_list_array.cpp)
+
