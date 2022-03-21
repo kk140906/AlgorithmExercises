@@ -12,5 +12,6 @@ add_executable(StaticListArray ${CMAKE_CURRENT_SOURCE_DIR}/static_list_array.cpp
 add_executable(MonotonicStack ${CMAKE_CURRENT_SOURCE_DIR}/monotonic_stack.cpp)
 add_executable(MonotonicQueue ${CMAKE_CURRENT_SOURCE_DIR}/monotonic_queue.cpp)
 add_executable(KMP ${CMAKE_CURRENT_SOURCE_DIR}/kmp.cpp)
+add_executable(Hash ${CMAKE_CURRENT_SOURCE_DIR}/hash.cpp)
 add_executable(Trie ${CMAKE_CURRENT_SOURCE_DIR}/trie.cpp)
 
