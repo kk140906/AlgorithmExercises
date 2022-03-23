@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.21)
 project(Algorithm_Data_Structure)
 set(CMAKE_CXX_STANDARD 14)
 
+include_directories(${CMAKE_SOURCE_DIR}/utils)
+
 add_executable(StaticStackArray ${CMAKE_CURRENT_SOURCE_DIR}/static_stack_array.cpp)
 add_executable(StaticQueueArray ${CMAKE_CURRENT_SOURCE_DIR}/static_queue_array.cpp)
 add_executable(StaticListArray ${CMAKE_CURRENT_SOURCE_DIR}/static_list_array.cpp)
