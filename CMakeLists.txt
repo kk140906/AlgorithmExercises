@@ -11,3 +11,5 @@ add_subdirectory(search)
 add_subdirectory(string)
 add_subdirectory(others)
 add_subdirectory(tree_graph)
+
+add_executable(Template template.cpp)
